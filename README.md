@@ -11,3 +11,13 @@ From scratch (make sure Bash & Git are up to date first&mdash;looking at you mac
     - Re-checkout: `cfg checkout`
 - Don't show untracked: `cfg config status.showUntrackedFiles no`
 - Update submodules: `cfg submodule update --init --recursive`
+
+## `ack`nowledgements
+
+Tooling and configuration inspired by:
+
+- https://github.com/Pinjasaur/dotfiles
+
+
+## License
+[MIT](https://pinjasaur.mit-license.org/2017).
