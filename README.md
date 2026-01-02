@@ -1,7 +1,9 @@
 From scratch (make sure Bash & Git are up to date first&mdash;looking at you macOS defaults 🙄):
 
 - Go $HOME: `cd ~`
-- Clone repo
+- Clone repo:
+  - HTTPS: `git clone --bare https://github.com/CodeCiepol/dotfiles.git $HOME/.cfg`
+  - SSH: `git clone --bare git@github.com:CodeCiepol/dotfiles.git $HOME/.cfg`
 - Add `cfg` alias: `alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
 - Make backup directory: `mkdir -p .cfg-backup`
 - Checkout dotfiles: `cfg checkout`
